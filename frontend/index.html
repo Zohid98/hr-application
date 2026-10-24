@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>HR Application</h1>
+    <p>Ariza topshirish tizimi</p>
+
+    <h2>Yangi ariza</h2>
+
+    <form id="application-form">
+        <label for="first_name">Ism:</label>
+        <input type="text" id="first_name" name="first_name" required>
+
+        <br><br>
+
+        <label for="last_name">Familiya:</label>
+        <input type="text" id="last_name" name="last_name" required>
+
+        <br><br>
+
+        <label for="date_of_birth">Tug‘ilgan sana:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required>
+
+        <br><br>
+
+        <label for="gender">Jins:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Tanlang</option>
+            <option value="male">Erkak</option>
+            <option value="female">Ayol</option>
+        </select>
+
+        <br><br>
+
+        <label for="citizenship">Fuqarolik:</label>
+        <input type="text" id="citizenship" name="citizenship" required>
+
+        <br><br>
+
+        <label for="residential_address">Yashash manzili:</label>
+        <input type="text" id="residential_address" name="residential_address" required>
+
+        <br><br>
+
+        <label for="phone_number">Telefon raqam:</label>
+        <input type="tel" id="phone_number" name="phone_number" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+        <p id="message"></p>
+        <button type="submit">Ariza yuborish</button>
+<script src="script.js"></script>
+</body>
+</html>

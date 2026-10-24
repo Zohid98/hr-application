@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR tizimiga kirish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>HR Application</h1>
+    <p>HR xodimlari uchun boshqaruv tizimi</p>
+
+    <form id="login-form">
+        <h2>Tizimga kirish</h2>
+
+        <label for="username">Login:</label>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            required
+        >
+
+        <label for="password">Parol:</label>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            required
+        >
+
+        <button type="submit">Kirish</button>
+
+        <p id="login-message"></p>
+    </form>
+<script src="hr-login.js"></script>
+</body>
+</html>
